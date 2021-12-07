@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="description" content="Svelte demo app" />
@@ -9,16 +9,16 @@
 
 		
 
-		<link rel="modulepreload" href="/kino/_app/start-44df6f47.js">
-		<link rel="modulepreload" href="/kino/_app/chunks/vendor-533afa97.js">
-		<link rel="modulepreload" href="/kino/_app/pages/__layout.svelte-eddb1ab3.js">
-		<link rel="modulepreload" href="/kino/_app/pages/todos/index.svelte-542653db.js">
+		<link rel="modulepreload" href="/kino/_app/start-9fb7b256.js">
+		<link rel="modulepreload" href="/kino/_app/chunks/vendor-bd8d0ae1.js">
+		<link rel="modulepreload" href="/kino/_app/pages/__layout.svelte-7ec7ecfd.js">
+		<link rel="modulepreload" href="/kino/_app/pages/todos/index.svelte-867d596c.js">
 		<link rel="stylesheet" href="/kino/_app/assets/start-d5b4de3e.css">
-		<link rel="stylesheet" href="/kino/_app/assets/pages/__layout.svelte-138f69a0.css">
+		<link rel="stylesheet" href="/kino/_app/assets/pages/__layout.svelte-e151786d.css">
 		<link rel="stylesheet" href="/kino/_app/assets/pages/todos/index.svelte-784042c1.css">
 
 		<script type="module">
-			import { start } from "/kino/_app/start-44df6f47.js";
+			import { start } from "/kino/_app/start-9fb7b256.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"/kino","assets":""},
@@ -31,8 +31,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/kino/_app/pages/__layout.svelte-eddb1ab3.js"),
-						import("/kino/_app/pages/todos/index.svelte-542653db.js")
+						import("/kino/_app/pages/__layout.svelte-7ec7ecfd.js"),
+						import("/kino/_app/pages/todos/index.svelte-867d596c.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -48,26 +48,17 @@
 		<div id="svelte">
 
 
-<header class="bg-black text-white"><nav class="container"><ul class="flex justify-between items-center"><li><a class="uppercase font-black" href="#">Kino</a></li>
+<header class="bg-black text-white shadow-2xl"><nav class="container"><ul class="flex justify-between items-center"><li><a class="uppercase font-black" href="#">Kino</a></li>
 			<li><a class="" href="#">Sledovat</a></li></ul></nav></header>
 
 
+<div class="bg-blue-800 text-white"><div class="container space-y-4"><h1 class="text-3xl font-black" style="line-height: 1">Konec</h1>
+		<div class="flex gap-2"><span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">Červený trpaslík</span>
+			<span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">1. série</span>
+			<span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">1. díl</span>
+			<span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">29 min</span></div></div></div>
 
-<div class="bg-red-500"><div class="container space-y-4"><h1 class="text-3xl font-black" style="line-height: 1">Konec</h1>
-		<div class="flex gap-2"><span class="rounded px-2 py-1 bg-red-300 text-sm text-red-900">Červený trpaslík</span>
-			<span class="rounded px-2 py-1 bg-red-300 text-sm text-red-900">1. série</span>
-			<span class="rounded px-2 py-1 bg-red-300 text-sm text-red-900">1. díl</span>
-			<span class="rounded px-2 py-1 bg-red-300 text-sm text-red-900">29 min</span></div>
-		<div class="aspect-w-16 aspect-h-9"><video controls preload="none" poster="reddwarf.webp" width="100%" height="100%"><source src="http://nahnoji.cz/data.mp4?id=11233&s=637743275064983000&k=b00abc79f673baf0ecb0b62a84b25116" type="video/mp4"></video></div></div></div>
-
-<div class="container"><div class="prose max-w-none text-white"><p>Dave Lister, nejpodřadnější člen posádky, je potrestán zavřením do časové stáze a propadnutí
-			platu za přechovávání zvířete, kočky které neprošlo karanténou. Ve stázi však stráví 3 milióny
-			let a probudí ho až lodní počítač Holly, který mu sdělí že jsou všichni mrtvý. Holly však
-			vzkřísil do formy hologramu jeho nadřízeného Rimmera a v nákladovém prostoru se vyvinul z
-			Listerovi kočky humanoidní druh.
-		</p></div></div>
-
-<main class="bg-gray-900 text-white">
+<main class="container prose">
 
 <div class="todos svelte-dmxqmd"><h1>Todos</h1>
 
@@ -76,7 +67,7 @@
 	
 </div></main>
 
-<footer><div class="container"><p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p></div></footer>
+<footer><div class="container text-white"><p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p></div></footer>
 
 
 
