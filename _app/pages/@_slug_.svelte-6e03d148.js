@@ -1,1 +1,0 @@
-import{S as r,i as a,s as e}from"../chunks/vendor-bd8d0ae1.js";async function c({page:o,fetch:s,session:u,stuff:l}){const n=`/blog/${o.params.slug}.json`,t=await s(n);return t.ok?{props:{article:await t.json()}}:{status:t.status,error:new Error(`Could not load ${n}`)}}class d extends r{constructor(s){super();a(this,s,null,null,e,{})}}export{d as default,c as load};

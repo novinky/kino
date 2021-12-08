@@ -5,34 +5,35 @@
 		<meta name="description" content="Svelte demo app" />
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Home</title>
+		
 
 		
 
-		<link rel="modulepreload" href="/kino/_app/start-643270f0.js">
-		<link rel="modulepreload" href="/kino/_app/chunks/vendor-bd8d0ae1.js">
-		<link rel="modulepreload" href="/kino/_app/chunks/paths-28a87002.js">
-		<link rel="modulepreload" href="/kino/_app/pages/__layout.svelte-7ec7ecfd.js">
-		<link rel="modulepreload" href="/kino/_app/pages/index.svelte-c01cbb8f.js">
-		<link rel="stylesheet" href="/kino/_app/assets/start-d5b4de3e.css">
-		<link rel="stylesheet" href="/kino/_app/assets/pages/__layout.svelte-e151786d.css">
+		<link rel="modulepreload" href="/_app/start-a4fc128e.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-4a74020b.js">
+		<link rel="modulepreload" href="/_app/chunks/paths-28a87002.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-29e5bacd.js">
+		<link rel="modulepreload" href="/_app/chunks/constants-4097588e.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-c9999ea4.js">
+		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-19e4df10.css">
 
 		<script type="module">
-			import { start } from "/kino/_app/start-643270f0.js";
+			import { start } from "/_app/start-a4fc128e.js";
 			start({
 				target: document.querySelector("#svelte"),
-				paths: {"base":"/kino","assets":""},
+				paths: {"base":"","assets":""},
 				session: {},
 				host: location.host,
-				route: false,
+				route: true,
 				spa: false,
 				trailing_slash: "never",
 				hydrate: {
 					status: 200,
 					error: null,
 					nodes: [
-						import("/kino/_app/pages/__layout.svelte-7ec7ecfd.js"),
-						import("/kino/_app/pages/index.svelte-c01cbb8f.js")
+						import("/_app/pages/__layout.svelte-29e5bacd.js"),
+						import("/_app/pages/index.svelte-c9999ea4.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -48,19 +49,18 @@
 		<div id="svelte">
 
 
-<header class="bg-black text-white shadow-2xl"><nav class="container"><ul class="flex justify-between items-center"><li><a class="uppercase font-black" href="#">Kino</a></li>
-			<li><a class="" href="#">Sledovat</a></li></ul></nav></header>
+<div class="p-1 space-y-2 border-b border-gray-800"><div class="text-white flex justify-between"><a class="text-blue-600 block p-4 uppercase text-lg font-black" href="/" style="line-height: 1">Kino</a>
+
+		<ul class="flex"><a class="block p-4 text-white text-lg" href="/" style="line-height: 1">Reality</a>
+			<a class="block p-4 text-white text-lg" href="/" style="line-height: 1">Práce</a></ul></div>
+	<div class=""><ul class="flex justify-center"><a class="block p-4 text-white text-lg" href="/" style="line-height: 1">Nové</a>
+			<a class="block p-4 text-white text-lg" href="/" style="line-height: 1">Seriály</a>
+			<a class="block p-4 text-white text-lg" href="/" style="line-height: 1">Filmy</a>
+			<a class="block p-4 text-white text-lg" href="/" style="line-height: 1">Články</a></ul></div></div>
 
 
-<div class="bg-blue-800 text-white"><div class="container space-y-4"><h1 class="text-3xl font-black" style="line-height: 1">Konec</h1>
-		<div class="flex gap-2"><span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">Červený trpaslík</span>
-			<span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">1. série</span>
-			<span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">1. díl</span>
-			<span class="rounded px-2 py-1 bg-blue-900 text-sm text-blue-100">29 min</span></div></div></div>
 
-<main class="container prose">
-
-<a href="/kino/clanky">clanky</a></main>
+<main class="container prose"><div class="space-y-2"><a class="block bg-red-900" href="clanek/stes6t">nadpis</a><a class="block bg-red-900" href="clanek/tse6st">nadpis2</a><a class="block bg-red-900" href="clanek/te6sst">nadpis3</a><a class="block bg-red-900" href="clanek/t6essst">nadpis3</a><a class="block bg-red-900" href="clanek/6atest">nadpis3</a><a class="block bg-red-900" href="clanek/taestr">nadpis3</a><a class="block bg-red-900" href="clanek/teasrt">nadpis3</a><a class="block bg-red-900" href="clanek/tesrat">nadpis3</a><a class="block bg-red-900" href="clanek/tersta">nadpis3</a><a class="block bg-red-900" href="clanek/rrtest">nadpis3</a><a class="block bg-red-900" href="clanek/rtrest">nadpis3</a><a class="block bg-red-900" href="clanek/terstq">nadpis3</a><a class="block bg-red-900" href="clanek/tesrqt">nadpis3</a><a class="block bg-red-900" href="clanek/tesqtr">nadpis3</a><a class="block bg-red-900" href="clanek/htqest">nadpis3</a><a class="block bg-red-900" href="clanek/tqhest">nadpis3</a><a class="block bg-red-900" href="clanek/qtehst">nadpis3</a></div></main>
 
 <footer><div class="container text-white"><p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p></div></footer>
 
